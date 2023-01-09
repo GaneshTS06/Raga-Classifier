@@ -93,7 +93,7 @@ plot(xf, 2/n*np.abs(yf[:n//2]), {
 })
 
 # split frequencies into clusters
-clusters = jenkspy.jenks_breaks(freqs, nb_class=CLUSTER_SIZE)
+clusters = jenkspy.jenks_breaks(freqs, n_classes=CLUSTER_SIZE)
 cluster_idx = np.array(
     list(map(lambda bound: (np.where(freqs == bound)[0][0]), clusters))
 )
