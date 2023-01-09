@@ -1,0 +1,4 @@
+jenkspy==0.3.2
+librosa==0.9.2
+matplotlib==3.6.2
+numpy==1.23.5
